@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <template id="assets_backend" name="web_widget_text_collapse_bootstrap assets" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <!-- css for component display bootstrap-markdown de https://github.com/toopay/bootstrap-markdown -->
+                <link rel="stylesheet" href="/web_widget_text_collapse_bootstrap/static/src/css/bootstrap-markdown.min.css"/>
+
+                <!-- automatic language détection https://highlightjs.org for the plugin bootstrap-markdown -->
+                <link rel="stylesheet" href="/web_widget_text_collapse_bootstrap/static/lib/highlight/styles/railscasts.css"/>
+
+                <!-- our own customization -->
+                <link rel="stylesheet" href="/web_widget_text_collapse_bootstrap/static/src/css/main.css"/>
+
+                <!-- Scripts of use plugins -->
+                <script type="text/javascript" src="/web_widget_text_collapse_bootstrap/static/lib/highlight/highlight.min.js"/>
+                <script type="text/javascript" src="/web_widget_text_collapse_bootstrap/static/lib/marked/marked.js"/>
+                <script type="text/javascript" src="/web_widget_text_collapse_bootstrap/static/lib/bootstrap-markdown/bootstrap-markdown.js"/>
+
+                <!-- Script of the component -->
+                <script type="text/javascript" src="/web_widget_text_collapse_bootstrap/static/src/js/collapse.js"/>
+            </xpath>
+        </template>
+    </data>
+</openerp>
