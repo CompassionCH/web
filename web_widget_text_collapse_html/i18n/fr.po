@@ -1,0 +1,39 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* web_widget_text_collapse_html
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-14 08:23+0000\n"
+"PO-Revision-Date: 2019-03-14 10:51+0100\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.2.1\n"
+"Last-Translator: \n"
+"Language: fr_CH\n"
+
+#. module: web_widget_text_collapse_html
+#. openerp-web
+#: code:addons/web_widget_text_collapse_html/static/src/js/collapse.js:20
+#, python-format
+msgid "Collapse"
+msgstr "Collapse"
+
+#. module: web_widget_text_collapse_html
+#. openerp-web
+#: code:addons/web_widget_text_collapse_html/static/src/xml/collapse.xml:29
+#, python-format
+msgid "show"
+msgstr "afficher"
+
+#. module: web_widget_text_collapse_html
+#. openerp-web
+#: code:addons/web_widget_text_collapse_html/static/src/xml/collapse.xml:29
+#, python-format
+msgid "hide"
+msgstr "masquer"

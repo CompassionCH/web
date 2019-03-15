@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <template id="assets_backend" name="web_widget_text_collapse_html assets" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <!-- our own customization -->
+                <link rel="stylesheet" href="/web_widget_text_collapse_html/static/src/css/main.css"/>
+
+                <!-- Script of the component -->
+                <script type="text/javascript" src="/web_widget_text_collapse_html/static/src/js/collapse.js"/>
+            </xpath>
+        </template>
+    </data>
+</openerp>
