@@ -8,6 +8,9 @@ odoo.define("web_widget_text_collapse_html.collapse",
     // core._lt tool for allows term translation into the module
     var _lt = core._lt;
 
+    var Listview = require('web.ListView');
+    var formats = require('web.formats');
+
     //created a new field that inherits from the odoo standard fields
     var TextCollapse = core.form_widget_registry.get("html");
 
@@ -68,6 +71,16 @@ odoo.define("web_widget_text_collapse_html.collapse",
 
     // save the widget
     core.form_widget_registry.add('text_collapse_html',
-      TextCollapse);
+      textCollapseHTML);
+
+      Listview.Column.include({
+
+         _format: function (row_data, options) {
+
+      return formats.format_value(row_data[this.id].value, this, options.value_if_empty);
+
+         }
+
+     });
 
   });
