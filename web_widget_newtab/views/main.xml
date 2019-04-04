@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <template id="assets_backend" name="web_widget_newtab assets" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <!-- Script of the component -->
+                <script type="text/javascript" src="/web_widget_newtab/static/src/js/newtab.js"/>
+            </xpath>
+        </template>
+    </data>
+</openerp>
